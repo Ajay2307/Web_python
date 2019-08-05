@@ -8,7 +8,8 @@ WORKDIR /app
 
 RUN pip install -r  /app/requirements.txt
 
-ENTRYPOINT ["python"]
+# ENTRYPOINT ["python"]
 
-CMD ["app.py"]
+# CMD ["app.py"]
 
+CMD ["python", "/app/app.py"]
